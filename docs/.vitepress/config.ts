@@ -33,8 +33,17 @@ export default defineConfig({
         {
           text: 'Features',
           items: [
-            { text: 'Key Features', link: '/guide/features' },
-            { text: 'Components', link: '/guide/components' }
+            { text: 'Key Features', link: '/guide/features/' },
+            { text: 'Performance', link: '/guide/features/performance' },
+            { text: 'Security', link: '/guide/features/security' }
+          ]
+        },
+        {
+          text: 'Components',
+          items: [
+            { text: 'Overview', link: '/guide/components/' },
+            { text: 'UI Components', link: '/guide/components/ui-components' },
+            { text: 'Layout Components', link: '/guide/components/layout-components' }
           ]
         }
       ],
